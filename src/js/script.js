@@ -33,7 +33,7 @@ function alterarNomePersonagemSelecionado(idPersonagem) {
 function alterarImagemPersonagemSelecionado(personagens) {
   const personagemGrande = document.querySelector(".personagem-grande");
   const idPersonagem = personagens.attributes.id.value;
-  personagemGrande.src = `/src/images/card-${idPersonagem}.png`;
+  personagemGrande.src = `/project-X-men/src/images/card-${idPersonagem}.png`;
   return idPersonagem;
 }
 
